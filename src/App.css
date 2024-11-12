@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  
+}
+.bg{
+  background-image: "https://images.pexels.com/photos/27553310/pexels-photo-27553310/free-photo-of-nature-plant-photography.jpeg?auto=compress&cs=tinysrgb&w=600";
+}
+.read-the-docs {
+  color: #941515;
+  /* background-image: "https://images.pexels.com/photos/27553310/pexels-photo-27553310/free-photo-of-nature-plant-photography.jpeg?auto=compress&cs=tinysrgb&w=600"; */
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  color: #f0f0f0a9;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  width: 1000px;
+ border-radius: 2%;
+}
+
+/* Header Styling */
+.header {
+  font-size: 2.5rem;
+  color: #f1c40f;
+  margin-bottom: -5px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+.secondHeader{
+  font-size: 2.5rem;
+  color: #f1690f;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Description Styling */
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  width: 80%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Image Container */
+.images {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  margin-top: 20px;
+  grid-row: auto;
+}
+
+/* Movie Poster Image Styling */
+.movie-poster {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+ 
+  height: 370px;
+}
+
+.movie-poster:hover {
+  transform: scale(1.1);
+}
+
+/* Movie Scene Image Styling */
+.movie-scene {
+  width: 270px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  
+  height: 370px;
+}
+
+.movie-scene:hover {
+  transform: scale(1.1);
+}
